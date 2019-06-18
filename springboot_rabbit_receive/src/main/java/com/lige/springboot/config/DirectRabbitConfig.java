@@ -46,7 +46,11 @@ public class DirectRabbitConfig {
  
 		container.setQueues(CalonDirectQueue());
 		container.setMessageListener(directAckReceiver);
+		//
 		return container;
 	}
  
+	
+	
+	
 }
